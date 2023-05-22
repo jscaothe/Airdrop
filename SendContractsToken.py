@@ -8,6 +8,7 @@ data = readAccout()
 
 bsc = "https://bsc-dataseed.binance.org/"
 web3 = Web3(Web3.HTTPProvider(bsc))
+web3 = Web3(Web3.HTTPProvider(bsc))
 
 #Check connect
 print(web3.isConnected())
